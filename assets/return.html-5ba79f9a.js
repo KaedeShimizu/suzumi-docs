@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-02d12c34","path":"/method/return.html","title":"返回格式","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"302跳转","slug":"_302跳转","link":"#_302跳转","children":[]},{"level":2,"title":"JSON","slug":"json","link":"#json","children":[]}],"git":{},"filePathRelative":"method/return.md"}');export{e as data};

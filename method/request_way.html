@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.66">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/images/fav.jpg"><title>请求方法 | Suzumi</title><meta name="description" content="Suzumi随机图片的API文档~">
+    <link rel="preload" href="/assets/style-8a38cc2d.css" as="style"><link rel="stylesheet" href="/assets/style-8a38cc2d.css">
+    <link rel="modulepreload" href="/assets/app-c912b07e.js"><link rel="modulepreload" href="/assets/request_way.html-121c2cf2.js"><link rel="modulepreload" href="/assets/request_way.html-d53876d9.js"><link rel="prefetch" href="/assets/index.html-17353cc5.js" as="script"><link rel="prefetch" href="/assets/about.html-009eac6b.js" as="script"><link rel="prefetch" href="/assets/feed.html-3c67f808.js" as="script"><link rel="prefetch" href="/assets/local.html-b1feed11.js" as="script"><link rel="prefetch" href="/assets/note.html-bafb4e3d.js" as="script"><link rel="prefetch" href="/assets/online.html-88dd8986.js" as="script"><link rel="prefetch" href="/assets/index.html-a76f497c.js" as="script"><link rel="prefetch" href="/assets/args.html-c641e78e.js" as="script"><link rel="prefetch" href="/assets/quickstart.html-32b9ea95.js" as="script"><link rel="prefetch" href="/assets/index.html-eff1479b.js" as="script"><link rel="prefetch" href="/assets/request_address.html-0e249020.js" as="script"><link rel="prefetch" href="/assets/return.html-5ba79f9a.js" as="script"><link rel="prefetch" href="/assets/404.html-f9875e7b.js" as="script"><link rel="prefetch" href="/assets/index.html-20394dcb.js" as="script"><link rel="prefetch" href="/assets/about.html-9ac82cf7.js" as="script"><link rel="prefetch" href="/assets/feed.html-704193c3.js" as="script"><link rel="prefetch" href="/assets/local.html-723bd49e.js" as="script"><link rel="prefetch" href="/assets/note.html-5ebb699b.js" as="script"><link rel="prefetch" href="/assets/online.html-ad9196d1.js" as="script"><link rel="prefetch" href="/assets/index.html-2b8a5709.js" as="script"><link rel="prefetch" href="/assets/args.html-625eefc5.js" as="script"><link rel="prefetch" href="/assets/quickstart.html-ae3e7415.js" as="script"><link rel="prefetch" href="/assets/index.html-a092da7c.js" as="script"><link rel="prefetch" href="/assets/request_address.html-310893d6.js" as="script"><link rel="prefetch" href="/assets/return.html-ad06f865.js" as="script"><link rel="prefetch" href="/assets/404.html-ae17bec9.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><!----><span class="site-name">Suzumi</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><a href="/method/" class="router-link-active" aria-label="使用方法"><!--[--><!--]--> 使用方法 <!--[--><!--]--></a></div><div class="navbar-item"><a href="/about/" class="" aria-label="关于"><!--[--><!--]--> 关于 <!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><a href="/method/" class="router-link-active" aria-label="使用方法"><!--[--><!--]--> 使用方法 <!--[--><!--]--></a></div><div class="navbar-item"><a href="/about/" class="" aria-label="关于"><!--[--><!--]--> 关于 <!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading active">使用方法 <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a href="/method/quickstart.html" class="sidebar-item" aria-label="快速入门"><!--[--><!--]--> 快速入门 <!--[--><!--]--></a><!----></li><li><a href="/method/args.html" class="sidebar-item" aria-label="请求参数"><!--[--><!--]--> 请求参数 <!--[--><!--]--></a><!----></li><li><a href="/method/request_address.html" class="sidebar-item" aria-label="请求地址"><!--[--><!--]--> 请求地址 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/method/request_way.html" class="router-link-active router-link-exact-active router-link-active sidebar-item active" aria-label="请求方法"><!--[--><!--]--> 请求方法 <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/method/request_way.html#url路径" class="router-link-active router-link-exact-active sidebar-item" aria-label="URL路径"><!--[--><!--]--> URL路径 <!--[--><!--]--></a><!----></li><!--]--></ul></li><li><a href="/method/return.html" class="sidebar-item" aria-label="返回格式"><!--[--><!--]--> 返回格式 <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="请求方法" tabindex="-1"><a class="header-anchor" href="#请求方法" aria-hidden="true">#</a> 请求方法</h1><h2 id="url路径" tabindex="-1"><a class="header-anchor" href="#url路径" aria-hidden="true">#</a> URL路径</h2><p>对于<code>direct</code>的请求没有num参数，因为直接显示的话只能显示一张图片</p><div class="language-url line-numbers-mode" data-ext="url"><pre class="language-url"><code><span class="token path"><span class="token path-separator">/</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>更加推荐使用这个进行请求，更快也更加方便，直接返回一个json（Python字典）对象，没有多余的东西</p><div class="language-url line-numbers-mode" data-ext="url"><pre class="language-url"><code><span class="token path"><span class="token path-separator">/</span>json</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>根目录，有两种请求方法：</p><ul><li>302跳转使用<code>GET</code>请求</li><li>json格式数据使用<code>POST</code>请求</li></ul><div class="language-url line-numbers-mode" data-ext="url"><pre class="language-url"><code><span class="token path"><span class="token path-separator">/</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="page-meta"><!----><!----><!----></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/method/request_address.html" class="" aria-label="请求地址"><!--[--><!--]--> 请求地址 <!--[--><!--]--></a></span><span class="next"><a href="/method/return.html" class="" aria-label="返回格式"><!--[--><!--]--> 返回格式 <!--[--><!--]--></a></span></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-c912b07e.js" defer></script>
+  </body>
+</html>
